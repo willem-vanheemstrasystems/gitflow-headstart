@@ -58,6 +58,8 @@ In Eclipse, right-click on the Project GIT_FLW001_NW_FEAT and choose from the po
 
 The changes have now been committed to the 'new_feature_001' branch, not the 'develop' branch yet.
 
+***NOTE***: In order to switch between 'features' to work on, as long as you commit your changes to the specific 'feature branch' you can jump from working on one feature to working on another feature (switching branch in the Git Repository view in Eclipse).
+
 4) When Jane has completed and tested her code, she will merge her 'new_feature_001' branch into 'develop'.
 
 In Eclipse, first 'pull' the 'develop' branch of 'gitflow-sample-creating-new-feature'. To do so, in the Git Repositories view choose the 'gitflow-sample-creating-new-feature [new_feature_001]' and right-click on it.
