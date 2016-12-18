@@ -26,6 +26,8 @@ Jane needs to start working on a ***new feature***.
 
 NOTE: If a develop branch has not already been created off the master branch, on Github one can create such a develop branch from the master branch. So, do so first.
 
+Have a look at the Graph section on GitHub which will show all branches for this repository under 'Network'. https://github.com/willem-vanheemstrasystems/gitflow-sample-creating-new-feature/network
+
 For this example, pull https://github.com/willem-vanheemstrasystems/gitflow-sample-creating-new-feature/tree/develop
 
 This is done in Eclipse by first cloning the above repository and adding it to the view. Switch to the Git perspective and choose the Git icon with the blue downwards facing arrow "Clone a Git Repository and add the clone to this view". 
@@ -61,6 +63,8 @@ The changes have now been committed to the 'new_feature_001' branch, not the 'de
 In Eclipse, first 'pull' the 'develop' branch of 'gitflow-sample-creating-new-feature'. To do so, in the Git Repositories view choose the 'gitflow-sample-creating-new-feature [new_feature_001]' and right-click on it.
 
 From the popup menu choose 'Switch to' and choose the 'develop' branch. Then on the 'develop' branch choose 'pull'.
+
+***NOTE***: If Jane is not authorised to merge her 'feature' branch into the 'develop' branch, she can issue a '***pull request***' instead. This alerts someone who is authorized to merge into the develop branch to do so (after having reviewed and tested the new feature code).
 
 Once the 'develop' branch has been pulled, and thus contains the latest changes, on the 'GIT_FLW001_NW_FEAT' project, right-click and choose 'Merge...'. From the Merge menu, choose to merge the 'new_feature_001' branch into the 'develop' branch. Click 'Merge'
 
