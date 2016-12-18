@@ -4,6 +4,8 @@ GitFlow - 001
 
 Based on 'Git Flow Part 1 - What is Git Flow?' at https://www.youtube.com/watch?v=6LhTe8Mz6jM
 
+More detail on 'Introducing GitFlow' at https://datasift.github.io/gitflow/IntroducingGitFlow.html
+
 #How it works
 
 1) We have a ***central*** repository.
