@@ -22,7 +22,7 @@ More detail on 'Introducing GitFlow' at https://datasift.github.io/gitflow/Intro
 
 Jane needs to start working on a ***new feature***.
 
-01. Jane will ```pull``` the latest copy of the ***Develop*** branch.
+1. Jane will ```pull``` the latest copy of the ***Develop*** branch.
 
 NOTE: If a develop branch has not already been created off the master branch, on Github one can create such a develop branch from the master branch. So, do so first.
 
@@ -34,18 +34,11 @@ Make sure you select ***develop*** as the branch to clone (not ***master***).
 
 Also if the ***develop*** branch is cloned, make sure to ```pull``` the existing clone before continuing to get the latest status. In Eclipse, you do so by choosing ```pull``` from the popup menu when right-clicking the clone of the ***develop*** branch e.g. ```gitflow-sample-creating-new-feature [develop]```.
 
-02. Jane will then ```fork``` the cloned ***develop*** branch to create her own ```feature``` branch.
+2. Jane will then ```fork``` the cloned ***develop*** branch to create her own ```feature``` branch.
 
 Do as follows in Eclipse; on the local ***develop*** branch, right-click and pick 'Switch To' from the popup menu, choose 'New Branch...'.
 
 Name the new branch, e.g. '***new_feature_001***'. Keep 'source' as 'develop'. Leave 'Configure upstream for push and pull' unchecked. Check 'Checkout new branch'.
 
 
-
-
-
-
-
-
-
-
+...
