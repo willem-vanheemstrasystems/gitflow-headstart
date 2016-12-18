@@ -40,5 +40,35 @@ Do as follows in Eclipse; on the local ***develop*** branch, right-click and pic
 
 Name the new branch, e.g. '***new_feature_001***'. Keep 'source' as 'develop'. Leave 'Configure upstream for push and pull' unchecked. Check 'Checkout new branch'.
 
+In the Project Explorer, the project 'GIT_FLW001_NW_FEAT' will now have switched to the 'new_feature_001' branch, ready to start coding the new feature code.
+
+As a test, create a new javascript file inside the GIT_FLW001_NW_FEAT project, e.g. 'New_Feature_Code.js'. 
+
+As content of this file use:
+
+```javascript
+var someNewFeatureCodeHere = 'test';
+```
+
+3) Jane will commit her work to this ***new feature*** branch.
+
+In Eclipse, right-click on the Project GIT_FLW001_NW_FEAT and choose from the pop-up menu 'Team' -> 'Commit...'. Stage the file 'New_Feature_Code.js' and click 'Commit' after making sure the branch is pointing at 'new_feature_001'.
+
+The changes have now been committed to the 'new_feature_001' branch, not the 'develop' branch yet.
+
+4) When Jane has completed and tested her code, she will merge her 'new_feature_001' branch into 'develop'.
+
+In Eclipse, first 'pull' the 'develop' branch of 'gitflow-sample-creating-new-feature'. To do so, in the Git Repositories view choose the 'gitflow-sample-creating-new-feature [new_feature_001]' and right-click on it.
+
+From the popup menu choose 'Switch to' and choose the 'develop' branch. Then on the 'develop' branch choose 'pull'.
+
+Once the 'develop' branch has been pulled, and thus contains the latest changes, on the 'GIT_FLW001_NW_FEAT' project, right-click and choose 'Merge...'. From the Merge menu, choose to merge the 'new_feature_001' branch into the 'develop' branch. Click 'Merge'
+
+The 'develop' branch will show an upwards pointing arrow, indicating that changes have been committed to this branch (i.e. our new feature) and thus a push should be conducted.
+
+Go ahead and choose 'Push branch develop'. Confirm all dialogue windows. The upwards pointing arrow will have disappeared and when viewed on GitHub, the new feature code should be present in the code base for the 'develop' branch. 
+
+Click on the 'commits' on the Github page for the 'develop' branch. Some of the commits will be those of the new feature. They are now part of the 'develop' branch.   
+
 
 ...
