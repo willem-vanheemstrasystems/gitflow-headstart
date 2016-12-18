@@ -16,3 +16,24 @@ Based on 'Git Flow Part 1 - What is Git Flow?' at https://www.youtube.com/watch?
 
 5) The ***Master*** branch stores the official release history.
 
+#Creating a Feature
+
+Jane needs to start working on a ***new feature***.
+
+1. Jane will ```pull``` the latest copy of the ***Develop*** branch.
+
+For this example, pull https://github.com/willem-vanheemstrasystems/gitflow-sample-creating-new-feature/tree/develop
+
+This is done in Eclipse by first cloning the above repository and adding it to the view. Switch to the Git perspective and choose the Git icon with the blue downwards facing arrow "Clone a Git Repository and add the clone to this view". 
+
+Make sure you select ***develop*** as the branch to clone (not ***master***). 
+
+Also if the ***develop*** branch is cloned, make sure to ```pull``` the existing clone before continuing to get the latest status. In Eclipse, you do so by choosing ```pull``` from the popup menu when right-clicking the clone of the ***develop*** branch e.g. ```gitflow-sample-creating-new-feature [develop]```.
+
+
+
+
+
+
+
+
