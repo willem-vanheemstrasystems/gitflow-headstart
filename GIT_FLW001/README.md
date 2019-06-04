@@ -1,6 +1,6 @@
-###README.md
+### README.md
 
-GitFlow - 001
+# GitFlow - 001
 
 Based on 'Git Flow Part 1 - What is Git Flow?' at https://www.youtube.com/watch?v=6LhTe8Mz6jM
 
