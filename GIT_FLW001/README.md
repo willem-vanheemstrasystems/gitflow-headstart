@@ -6,7 +6,7 @@ Based on 'Git Flow Part 1 - What is Git Flow?' at https://www.youtube.com/watch?
 
 More detail on 'Introducing GitFlow' at https://datasift.github.io/gitflow/IntroducingGitFlow.html
 
-#How it works
+# How it works
 
 1) We have a ***central*** repository.
  
@@ -18,7 +18,7 @@ More detail on 'Introducing GitFlow' at https://datasift.github.io/gitflow/Intro
 
 5) The ***Master*** branch stores the official release history.
 
-#Creating a Feature
+# Creating a Feature
 
 Jane needs to start working on a ***new feature***.
 
